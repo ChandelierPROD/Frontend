@@ -8,7 +8,7 @@ import { getCourseCategories } from "../api";
 import { CategoryItem } from "@/entities/newCourse-slice/categoryItem";
 import styles from "./ui.module.scss";
 import { RequestFields } from "../data";
-import { findCategoryById, isNonEmptyArray } from "../model";
+import { isNonEmptyArray } from "../model";
 import { SubtopicArticle } from "@/entities/subtopic-slice/article";
 
 export const AddedForm = () => {

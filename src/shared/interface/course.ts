@@ -10,7 +10,9 @@ export interface ICourse {
   points: number;
   students: number;
   graduates: number;
+  grade: number;
   underThemeIds: number[];
+  under: IUnderTheme[];
 }
 
 export interface ICategory {
@@ -26,4 +28,24 @@ export interface ICourseCreateForm {
   authorInfo: string;
   author?: IUser;
   points?: number;
+}
+
+export interface IUnderTheme {
+  title: string;
+  description: string;
+  videoUrl: string;
+  explored: boolean; // Пройдено
+  started: boolean;
+  image: string;
+  grade: number;
+  points: number;
+  tasks: ITask[];
+}
+
+export interface ITask {
+  description: string;
+  response: string;
+  explored: boolean;
+  started: boolean;
+  image: string;
 }

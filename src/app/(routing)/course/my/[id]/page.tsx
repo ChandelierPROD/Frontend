@@ -1,9 +1,5 @@
 import { RenderArticles } from "@/features/course-slice/renderArticles";
 
 export default function Home() {
-  return (
-    <>
-      <RenderArticles />
-    </>
-  );
+  return <>Привет</>;
 }
