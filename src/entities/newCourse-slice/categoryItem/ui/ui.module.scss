@@ -1,0 +1,21 @@
+.category {
+  display: inline-flex;
+  padding: 10px 14px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 16px;
+  background: rgba(37, 240, 217, 0.4);
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+
+  transition: all 0.2s;
+  cursor: pointer;
+  &:hover {
+    filter: brightness(90%);
+  }
+}

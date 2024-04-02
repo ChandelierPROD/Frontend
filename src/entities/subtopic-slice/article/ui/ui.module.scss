@@ -1,0 +1,26 @@
+.added_article {
+  border-radius: 8px;
+  border: 2px dashed #25f0d9;
+  display: flex;
+  padding: 40px 90px;
+  width: fit-content;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  background: #fff;
+  transition: all 0.2s;
+  &:hover {
+    cursor: pointer;
+    filter: brightness(95%);
+  }
+
+  .h4 {
+    color: #25f0d9;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
