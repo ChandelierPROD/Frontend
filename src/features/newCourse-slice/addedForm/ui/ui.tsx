@@ -9,7 +9,7 @@ import { CategoryItem } from "@/entities/newCourse-slice/categoryItem";
 import styles from "./ui.module.scss";
 import { RequestFields } from "../data";
 import { isNonEmptyArray } from "../model";
-import { SubtopicArticle } from "@/entities/subtopic-slice/article";
+import { SubtopicArticle } from "@/entities/subTopic-slice/article";
 
 export const AddedForm = () => {
   const [categories, setCategories] = useState<ICategory[]>();

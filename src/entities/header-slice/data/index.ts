@@ -3,7 +3,7 @@ import Profile from "../../../../public/icons/profile.svg";
 import Plus from "../../../../public/icons/plus-black.svg";
 import { IHeaderItem } from "@/shared/interface/header";
 import Stat from "../../../../public/icons/stat.svg";
-
+import Shop from "../../../../public/icons/discount.svg";
 export const SideNavBarItems: IHeaderItem[] = [
   {
     title: "Курсы",
@@ -19,7 +19,13 @@ export const SideNavBarItems: IHeaderItem[] = [
     title: "Статистика",
     path: "/stat",
     icon: Stat,
-    submenu: true,
+    submenu: false,
+  },
+  {
+    title: "Магазин",
+    path: "/shop",
+    icon: Shop,
+    submenu: false,
   },
 ];
 

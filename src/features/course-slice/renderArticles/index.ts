@@ -1,1 +1,1 @@
-export { RenderArticles } from "./ui/ui";
+export { CourseRenderArticles } from "./ui/ui";

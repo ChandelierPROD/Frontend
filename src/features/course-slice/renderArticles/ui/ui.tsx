@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import { ICourse } from "@/shared/interface/course";
 import { GetCourses } from "../api";
 
-export const RenderArticles = () => {
+export const CourseRenderArticles = () => {
   const [courses, setCourse] = useState<ICourse[]>();
 
   useEffect(() => {

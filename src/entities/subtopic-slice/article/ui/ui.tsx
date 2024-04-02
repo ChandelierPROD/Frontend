@@ -3,6 +3,8 @@ import styles from "./ui.module.scss";
 import Plus from "../../../../../public/icons/plus.svg";
 import { useState } from "react";
 import { SubTopicArticleModal } from "../modal";
+
+
 export const SubtopicArticle = ({
   type = "add",
 }: {
